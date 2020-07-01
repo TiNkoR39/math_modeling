@@ -16,5 +16,6 @@ rad_moon = 1738 * 10**3 #si
 
 period_earth = 365.2564 #days
 
-speed_of_light = 2.998 * 10**8
+speed_of_light = 2.998 * 10**8 #si
+
 
