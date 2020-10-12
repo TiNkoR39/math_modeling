@@ -3,9 +3,9 @@ from scipy.integrate import odeint
 import matplotlib.pyplot as plt
 
 def ve(v, t):
-    dvdt = a - y*v**2
+    dvdt = a - y*v**2/m
     return(dvdt)
-
+m=1
 v0 = 0
 a = 5
 y=0.006
