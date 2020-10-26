@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 r0 = (1600/np.pi)**0.5
 t = np.arange(0,6,0.1)
 E = 1374
-k = 0.000000072
+k = 0.00000007175
 def square(r,t) :
     drdt = (r**3*E*abs(np.sin(t*2/24*np.pi))*k)**0.5
     return drdt
