@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.integrate import odeint
 
-x = np.arange(0.10,0.01)
+x = np.arange(0,10,0.01)
 def narkomania(z, x):
     y,omega = z
     dydx = omega
