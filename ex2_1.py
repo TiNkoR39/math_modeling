@@ -3,7 +3,7 @@ import scipy.signal as signal
 from PIL import Image, ImageColor
 from PIL import ImageDraw
 x = []
-fs, data = wav.read('arecibo.wav')
+fs, data = wav.read('signal_1.wav')
  
 def butter_bandpass(lowcut, highcut, fs, order=5):
     nyq = 0.5 * fs
